@@ -8,7 +8,7 @@ int main()
     scanf("%d %d", &num1, &num2);
     printf("Digite um operador:"); 
     fflush(stdin);
-    scanf("%c", &operacao); fflush(stdin);
+    scanf(" %c", &operacao); 
     
     switch(operacao){
         case '+':
